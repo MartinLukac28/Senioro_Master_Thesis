@@ -1,0 +1,483 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" type="image/x-icon" href="/web/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Filter Clients</title>
+    <style>
+
+        .form-control {
+            padding: 5px;
+            border-radius: 10px;
+            border: 5px solid #ced4da;
+            width: 200px;
+            text-align: left;
+        }
+
+        select,
+        input[type="text"] {
+            padding: 5px;
+            border-radius: 10px;
+            border: 5px solid #ced4da;
+            width: 200px;
+            text-align: left;
+        }
+
+            select:focus,
+            input[type="text"]:focus {
+                outline: none;
+                border-color: #007bff;
+                border: 5px solid #ced4da;
+            }
+
+        body {
+            text-align: center;
+        }
+        
+        .form-group label {
+            font-weight: bold;
+            padding-top: 7px;
+        }
+
+        .form-group.row {
+            margin-bottom: 15px;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .count-row td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Senioro</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <p></p>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="addClient.html">Add New Client</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="editClient.html">Edit Client</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="filterClients.html">Filter Client</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+        </main>
+    </div>
+    <br><br>
+    <div class="container mt-4">
+        <form id="filterForm">
+            <h1>Filter Clients</h1>
+            <br>
+            <label for="filterBy">Filter By: </label>
+            <select name="filterBy" id="filterBy">
+                <option value="">Select the filter condition</option>
+                <option value="lastName">Last Name</option>
+                <option value="gender">Gender</option>
+                <option value="immobility">Immobility</option>
+                <option value="dependency">Dependency</option>
+            </select>
+            <br><br>
+            <label for="filterValue">Filter Value:</label>
+            <input type="text" name="filterValue" id="filterValue">
+            <br><br>
+            <label for="diagnose1">Diagnose 1: </label>
+            <select name="diagnose1" id="diagnose1">
+                <option value="">Select a disease</option>
+                <option value="Arthritis">Arthritis</option>
+                <option value="Cancer">Cancer</option>
+                <option value="Chronic Kidney Disease">Chronic Kidney Disease</option>
+                <option value="Chronic Obstructive Pulmonary Disease">Chronic Obstructive Pulmonary Disease</option>
+                <option value="Dementia">Dementia</option>
+                <option value="Alzheimer's Disease">Alzheimer's Disease</option>
+                <option value="Parkinson's Disease">Parkinson's Disease</option>
+                <option value="Diabetes">Diabetes</option>
+                <option value="Osteoporosis">Osteoporosis</option>
+                <option value="Stroke">Stroke</option>
+                <option value="Autism">Autism</option>
+                <option value="Depression">Depression</option>
+            </select><br><br>
+            <label for="diagnose2">Diagnose 2: </label>
+            <select name="diagnose2" id="diagnose2">
+                <option value="">Select a disease</option>
+                <option value="Arthritis">Arthritis</option>
+                <option value="Cancer">Cancer</option>
+                <option value="Chronic Kidney Disease">Chronic Kidney Disease</option>
+                <option value="Chronic Obstructive Pulmonary Disease">Chronic Obstructive Pulmonary Disease</option>
+                <option value="Dementia">Dementia</option>
+                <option value="Alzheimer's Disease">Alzheimer's Disease</option>
+                <option value="Parkinson's Disease">Parkinson's Disease</option>
+                <option value="Diabetes">Diabetes</option>
+                <option value="Osteoporosis">Osteoporosis</option>
+                <option value="Stroke">Stroke</option>
+                <option value="Autism">Autism</option>
+                <option value="Depression">Depression</option>
+            </select><br><br>
+            <label for="diagnose3">Diagnose 3: </label>
+            <select name="diagnose3" id="diagnose3">
+                <option value="">Select a disease</option>
+                <option value="Arthritis">Arthritis</option>
+                <option value="Cancer">Cancer</option>
+                <option value="Chronic Kidney Disease">Chronic Kidney Disease</option>
+                <option value="Chronic Obstructive Pulmonary Disease">Chronic Obstructive Pulmonary Disease</option>
+                <option value="Dementia">Dementia</option>
+                <option value="Alzheimer's Disease">Alzheimer's Disease</option>
+                <option value="Parkinson's Disease">Parkinson's Disease</option>
+                <option value="Diabetes">Diabetes</option>
+                <option value="Osteoporosis">Osteoporosis</option>
+                <option value="Stroke">Stroke</option>
+                <option value="Autism">Autism</option>
+                <option value="Depression">Depression</option>
+            </select><br><br>
+            <label for="dateOfArrival">Start Date: </label>
+            <input type="text" id="dateOfArrival" placeholder="dd.MM.yyyy">
+            <br><br>
+            <label for="dateOfDeparture">End Date: </label>
+            <input type="text" id="dateOfDeparture" placeholder="dd.MM.yyyy">
+            <br><br>
+            <label for="sortBy">Sort By: </label>
+            <select name="sortBy" id="sortBy">
+                <option value="">Select sort field</option>
+                <option value="lastName">Last Name</option>
+                <option value="age">Age</option>
+                <option value="dateOfDeparture">Date Of Departure</option>
+                <option value="dependency">Dependency</option>
+                <option value="monthPayment">Payment Per Month</option>
+                <option value="roomNo">Room Number</option>
+
+            </select>
+
+            <br><br>
+            <label for="sortOrder">Sort Order:</label>
+            <select name="sortOrder" id="sortOrder">
+                <option value="">Select sort order</option>
+                <option value="asc">Ascending</option>
+                <option value="desc">Descending</option>
+            </select>
+
+            <input type="button" value="Filter" id="filterBtn">
+            <button type="button" id="statsBtn" class="btn btn-primary" data-toggle="modal" data-target="#yearModal">
+                Show statistics
+            </button>
+        </form>
+    </div>
+    <div class="modal fade" name="yearModal" id="yearModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="yearModalLabel">Show yearly statistics </h5>
+                    <button type="button" id="close" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="yearInput">Enter year:</label>
+                            <input type="text" id="yearInput" class="form-control">
+                    </div>
+                    <div class="form-group row">
+                        <label for="sortBy">Sort By:</label>
+                            <select name="sortByStat" id="sortByStat" class="form-control">
+                                <option value="">Select sort field</option>
+                                <option value="lastName">Last Name</option>
+                                <option value="age">Age</option>
+                                <option value="dateOfDeparture">Date Of Departure</option>
+                                <option value="dependency">Dependency</option>
+                                <option value="monthPayment">Payment Per Month</option>
+                                <option value="roomNo">Room Number</option>
+                            </select>
+                    </div>
+                    <div class="form-group row">
+                        <label for="sortOrder">Sort Order:</label>
+                            <select name="sortOrderStat" id="sortOrderStat" class="form-control">
+                                <option value="">Select sort order</option>
+                                <option value="asc">Ascending</option>
+                                <option value="desc">Descending</option>
+                            </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="col-md-12 text-center">
+                        <button type="button" class="btn btn-primary" id="StartYearBtn">Start of the year</button>
+                        <button type="button" class="btn btn-primary" id="EndYearBtn">End of the year</button>
+                        </div>
+                        <br>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+
+    <br><br>
+    <table id="resultTable" border="1">
+        <thead id="tableHead" style="display:none;">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Diagnoses</th>
+                <th>Room Number</th>
+                <th>Immobility</th>
+                <th>Dependency</th>
+                <th>Month Payment</th>
+                <th>Pension</th>
+                <th>Contact Person Name</th>
+                <th>Contact Person Surname</th>
+                <th>Contact Person Phone Number</th>
+                <th>Date Of Arrival</th>
+                <th>Date of Departure</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script>
+        $(document).ready(function () {
+            $('#dateOfArrival').datepicker({
+                format: 'dd.mm.yyyy',
+                autoclose: true,
+                todayHighlight: true
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#dateOfDeparture').datepicker({
+                format: 'dd.mm.yyyy',
+                autoclose: true,
+                todayHighlight: true
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#dateOfBirth').datepicker({
+                format: 'dd.mm.yyyy',
+                autoclose: true,
+                todayHighlight: true
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Attach a click event handler to the filter button
+            $("#filterBtn").click(function () {
+                // Get the filter criteria from the input fields
+                var filterBy = $("#filterBy").val();
+                var filterValue = $("#filterValue").val();
+                var dateOfArrival = $("#dateOfArrival").val();
+                var dateOfDeparture = $("#dateOfDeparture").val();
+                var diagnose1 = $("#diagnose1").val();
+                var diagnose2 = $("#diagnose2").val();
+                var diagnose3 = $("#diagnose3").val();
+                var sortBy = $("#sortBy").val();
+                var sortOrder = $("#sortOrder").val();
+               
+                // Call the FilterClients web method
+                $.ajax({
+                    type: "POST",
+                    url: "https://localhost:44395/WebService1.asmx/FilterClients",
+                    data: {
+                        filterBy: filterBy,
+                        filterValue: filterValue,
+                        dateOfArrival: dateOfArrival,
+                        dateOfDeparture: dateOfDeparture,
+                        diagnose1: diagnose1,
+                        diagnose2: diagnose2,
+                        diagnose3: diagnose3,
+                        sortBy: sortBy,
+                        sortOrder: sortOrder
+                    },
+                    dataType: "xml",
+                    success: function (xml) {
+                        // Extract the result from the XML document
+                        var Count = $(xml).find("Count").text();
+                        var clients = $(xml).find("record");
+                        $("#resultTable thead tr.count-row").remove();
+                        // Display the result in the table
+                        document.getElementById("tableHead").style.display = "table-header-group";
+                        $("<tr class='count-row'><td colspan='14'><b>" + Count + "</b></td></tr>").insertBefore($("#resultTable thead").children().first());
+                        $("#resultTable tbody").empty();
+                        clients.each(function () {
+                            var firstname = $(this).find("firstName").text();
+                            var lastname = $(this).find("lastName:not(contactPerson > lastName)").text();
+                            var age = $(this).find("age").text();
+                            var diagnose1 = $(this).find("diagnose1").text();
+                            var diagnose2 = $(this).find("diagnose2").text();
+                            var diagnose3 = $(this).find("diagnose3").text();
+                            var diagnoses = diagnose1 + (diagnose2 ? ", " + diagnose2 : "") + (diagnose3 ? ", " + diagnose3 : "");
+                            var roomno = $(this).find("roomNo").text();
+                            var immobility = $(this).find("immobility").text();
+                            var dependency = $(this).find("dependency").text();
+                            var monthpayment = $(this).find("monthPayment").text();
+                            var pension = $(this).find("pension").text();
+                            var contactpersonname = $(this).find("contactPerson name").text();
+                            var contactpersonlastname = $(this).find("contactPerson lastName").text();
+                            var contactpersonphonenumber = $(this).find("contactPerson phoneNumber").text();
+                            var dateofarrival = $(this).find("dateOfArrival").text();
+                            var dateofdeparture = $(this).find("dateOfDeparture").text();
+                            $("#resultTable tbody").append("<tr><td><b>" + firstname + "</b></td><td><b>" + lastname + "</b></td><td>" + age + "</td><td>" + diagnoses + "</td><td>" + roomno + "</td><td>" + immobility + "</td><td>" + dependency + "</td><td>" + monthpayment + ' €' + "</td><td>" + pension + ' €' + "</td><td>" + contactpersonname + "</td><td>" + contactpersonlastname + "</td><td>" + contactpersonphonenumber + "</td><td>" + dateofarrival + "</td><td>" + dateofdeparture + "</td></tr>");
+                        });
+                        var table = document.getElementById("tableHead");
+                        var offset = table.getBoundingClientRect().top - 70; // adjust offset by subtracting 60px
+                        window.scrollTo({ top: offset, behavior: "smooth" });
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        alert("Error calling web service: " + errorThrown);
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#StartYearBtn').click(function () {
+                var year = $('#yearInput').val();
+                var sortOrder = $('#sortOrderStat').val();
+                var sortBy = $('#sortByStat').val();
+                $.ajax({
+                    type: "POST",
+                    url: "https://localhost:44395/WebService1.asmx/SortClientsAtStart",
+                    data: { year: year, sortOrder: sortOrder, sortBy: sortBy },
+                    dataType: "xml",
+                    success: function (xml) {
+                        $('#yearModal .close').trigger('click');
+                        // Extract the result from the XML document
+                        var clients = $(xml).find("record");
+                        var Count = $(xml).find("Count").text();
+                        // Remove any existing count rows
+                        $("#resultTable thead tr.count-row").remove();
+                        // Display the result in the table
+                        document.getElementById("tableHead").style.display = "table-header-group";
+                        $("<tr class='count-row'><td colspan='14'><b>" + Count + " clients were present at the end of the year " + year + "." + "</b></td></tr>").insertBefore($("#resultTable thead").children().first());
+                        $("#resultTable tbody").empty();
+                        clients.each(function () {
+                            var firstname = $(this).find("firstName").text();
+                            var lastname = $(this).find("lastName:not(contactPerson > lastName)").text();
+                            var age = $(this).find("age").text();
+                            var diagnose1 = $(this).find("diagnose1").text();
+                            var diagnose2 = $(this).find("diagnose2").text();
+                            var diagnose3 = $(this).find("diagnose3").text();
+                            var diagnoses = diagnose1 + (diagnose2 ? ", " + diagnose2 : "") + (diagnose3 ? ", " + diagnose3 : "");
+                            var roomno = $(this).find("roomNo").text();
+                            var immobility = $(this).find("immobility").text();
+                            var dependency = $(this).find("dependency").text();
+                            var monthpayment = $(this).find("monthPayment").text();
+                            var pension = $(this).find("pension").text();
+                            var contactpersonname = $(this).find("contactPerson name").text();
+                            var contactpersonlastname = $(this).find("contactPerson lastName").text();
+                            var contactpersonphonenumber = $(this).find("contactPerson phoneNumber").text();
+                            var dateofarrival = $(this).find("dateOfArrival").text();
+                            var dateofdeparture = $(this).find("dateOfDeparture").text();
+                            $("#resultTable tbody").append("<tr><td>" + firstname + "</td><td>" + lastname + "</td><td>" + age + "</td><td>" + diagnoses + "</td><td>" + roomno + "</td><td>" + immobility + "</td><td>" + dependency + "</td><td>" + monthpayment + ' €' + "</td><td>" + pension + ' €' + "</td><td>" + contactpersonname + "</td><td>" + contactpersonlastname + "</td><td>" + contactpersonphonenumber + "</td><td>" + dateofarrival + "</td><td>" + dateofdeparture + "</td></tr>");
+                        });
+                        var table = document.getElementById("tableHead");
+                        var offset = table.getBoundingClientRect().top - 70; // adjust offset by subtracting 60px
+                        window.scrollTo({ top: offset, behavior: "smooth" });
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        alert("Error calling web service: " + errorThrown);
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#EndYearBtn').click(function () {
+                var year = $('#yearInput').val();
+                var sortOrder = $('#sortOrderStat').val();
+                var sortBy = $('#sortByStat').val();
+                $.ajax({
+                    type: "POST",
+                    url: "https://localhost:44395/WebService1.asmx/SortClientsAtEnd",
+                    data: { year: year, sortOrder: sortOrder, sortBy: sortBy },
+                    dataType: "xml",
+                    success: function (xml) {
+                        $('#yearModal .close').trigger('click');
+                        // Extract the result from the XML document
+                        var clients = $(xml).find("record");
+                        var Count = $(xml).find("Count").text();
+                        // Remove any existing count rows
+                        $("#resultTable thead tr.count-row").remove();
+                        // Display the result in the table
+                        document.getElementById("tableHead").style.display = "table-header-group";
+                        $("<tr class='count-row'><td colspan='14'><b>" + Count + " clients were present at the end of the year " + year + "." + "</b></td></tr>").insertBefore($("#resultTable thead").children().first());
+                        $("#resultTable tbody").empty();
+                        clients.each(function () {
+                            var firstname = $(this).find("firstName").text();
+                            var lastname = $(this).find("lastName:not(contactPerson > lastName)").text();
+                            var age = $(this).find("age").text();
+                            var diagnose1 = $(this).find("diagnose1").text();
+                            var diagnose2 = $(this).find("diagnose2").text();
+                            var diagnose3 = $(this).find("diagnose3").text();
+                            var diagnoses = diagnose1 + (diagnose2 ? ", " + diagnose2 : "") + (diagnose3 ? ", " + diagnose3 : "");
+                            var roomno = $(this).find("roomNo").text();
+                            var immobility = $(this).find("immobility").text();
+                            var dependency = $(this).find("dependency").text();
+                            var monthpayment = $(this).find("monthPayment").text();
+                            var pension = $(this).find("pension").text();
+                            var contactpersonname = $(this).find("contactPerson name").text();
+                            var contactpersonlastname = $(this).find("contactPerson lastName").text();
+                            var contactpersonphonenumber = $(this).find("contactPerson phoneNumber").text();
+                            var dateofarrival = $(this).find("dateOfArrival").text();
+                            var dateofdeparture = $(this).find("dateOfDeparture").text();
+                            $("#resultTable tbody").append("<tr><td>" + firstname + "</td><td>" + lastname + "</td><td>" + age + "</td><td>" + diagnoses + "</td><td>" + roomno + "</td><td>" + immobility + "</td><td>" + dependency + "</td><td>" + monthpayment + ' €' + "</td><td>" + pension + ' €' + "</td><td>" + contactpersonname + "</td><td>" + contactpersonlastname + "</td><td>" + contactpersonphonenumber + "</td><td>" + dateofarrival + "</td><td>" + dateofdeparture + "</td></tr>");
+                        });
+                        var table = document.getElementById("tableHead");
+                        var offset = table.getBoundingClientRect().top - 70; // adjust offset by subtracting 60px
+                        window.scrollTo({ top: offset, behavior: "smooth" });
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        alert("Error calling web service: " + errorThrown);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
+<footer class="p-5 bg-dark text-white text-center mt-auto">
+    <div class="container">
+        <p class="lead">Copyright &copy; 2023 Martin Lukáč</p>
+    </div>
+</footer>

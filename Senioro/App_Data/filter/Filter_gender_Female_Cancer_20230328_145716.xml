@@ -1,0 +1,269 @@
+<Result>
+  <Count>11 of the entries fulfil the given conditions</Count>
+  <Client>
+    <record>
+      <id>62</id>
+      <firstName>Aldus</firstName>
+      <lastName>McNeish</lastName>
+      <dateOfBirth>15.03.1940</dateOfBirth>
+      <phoneNumber>+52 654 469 6750</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>300</monthPayment>
+      <pension>420</pension>
+      <roomNo>402</roomNo>
+      <diagnose1>Cancer</diagnose1>
+      <diagnose2>Autism</diagnose2>
+      <diagnose3 />
+      <immobility>No</immobility>
+      <dependency>High</dependency>
+      <dateOfArrival>15.10.2017</dateOfArrival>
+      <dateOfDeparture>09.06.2022</dateOfDeparture>
+      <contactPerson>
+        <name>Mel</name>
+        <lastName>Mills</lastName>
+        <phoneNumber>+86 303 768 8898</phoneNumber>
+      </contactPerson>
+      <age>83</age>
+    </record>
+    <record>
+      <id>71</id>
+      <firstName>Nyssa</firstName>
+      <lastName>Wallworth</lastName>
+      <dateOfBirth>09.03.1940</dateOfBirth>
+      <phoneNumber>+33 482 989 6019</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>300</monthPayment>
+      <pension>480</pension>
+      <roomNo>411</roomNo>
+      <diagnose1>Autism</diagnose1>
+      <diagnose2>Cancer</diagnose2>
+      <diagnose3>Depression</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>10.05.2005</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Issy</name>
+        <lastName>Kee</lastName>
+        <phoneNumber>+62 637 977 6681</phoneNumber>
+      </contactPerson>
+      <age>83</age>
+    </record>
+    <record>
+      <id>95</id>
+      <firstName>Darrell</firstName>
+      <lastName>Cejka</lastName>
+      <dateOfBirth>16.07.1944</dateOfBirth>
+      <phoneNumber>+255 387 838 1691</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>350</monthPayment>
+      <pension>550</pension>
+      <roomNo>515</roomNo>
+      <diagnose1>Autism</diagnose1>
+      <diagnose2>Cancer</diagnose2>
+      <diagnose3>Depression</diagnose3>
+      <immobility>No</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>22.09.2011</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Ferd</name>
+        <lastName>McNee</lastName>
+        <phoneNumber>+251 972 484 8063</phoneNumber>
+      </contactPerson>
+      <age>78</age>
+    </record>
+    <record>
+      <id>23</id>
+      <firstName>Pris</firstName>
+      <lastName>Laugier</lastName>
+      <dateOfBirth>25.08.1946</dateOfBirth>
+      <phoneNumber>+351 970 424 2294</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>275</monthPayment>
+      <pension>550</pension>
+      <roomNo>203</roomNo>
+      <diagnose1>Autism</diagnose1>
+      <diagnose2>Cancer</diagnose2>
+      <diagnose3>Depression</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>13.11.2004</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Addie</name>
+        <lastName>Pittendreigh</lastName>
+        <phoneNumber>+1 315 704 7272</phoneNumber>
+      </contactPerson>
+      <age>76</age>
+    </record>
+    <record>
+      <id>38</id>
+      <firstName>Clyve</firstName>
+      <lastName>Corkell</lastName>
+      <dateOfBirth>08.10.1949</dateOfBirth>
+      <phoneNumber>+967 768 414 9558</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>275</monthPayment>
+      <pension>480</pension>
+      <roomNo>218</roomNo>
+      <diagnose1>Cancer</diagnose1>
+      <diagnose2>Autism</diagnose2>
+      <diagnose3 />
+      <immobility>No</immobility>
+      <dependency>High</dependency>
+      <dateOfArrival>21.12.2008</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Cletus</name>
+        <lastName>Jelkes</lastName>
+        <phoneNumber>+55 470 936 5805</phoneNumber>
+      </contactPerson>
+      <age>73</age>
+    </record>
+    <record>
+      <id>35</id>
+      <firstName>Carl</firstName>
+      <lastName>Frow</lastName>
+      <dateOfBirth>07.09.1955</dateOfBirth>
+      <phoneNumber>+86 836 897 0176</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>350</monthPayment>
+      <pension>500</pension>
+      <roomNo>215</roomNo>
+      <diagnose1>Autism</diagnose1>
+      <diagnose2>Cancer</diagnose2>
+      <diagnose3>Alzheimer's Disease</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>High</dependency>
+      <dateOfArrival>29.12.2012</dateOfArrival>
+      <dateOfDeparture>29.11.2015</dateOfDeparture>
+      <contactPerson>
+        <name>Chevalier</name>
+        <lastName>Abrahamsohn</lastName>
+        <phoneNumber>+30 290 870 7547</phoneNumber>
+      </contactPerson>
+      <age>67</age>
+    </record>
+    <record>
+      <id>59</id>
+      <firstName>Eleanora</firstName>
+      <lastName>Gwillym</lastName>
+      <dateOfBirth>06.07.1958</dateOfBirth>
+      <phoneNumber>+48 519 299 5740</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>275</monthPayment>
+      <pension>480</pension>
+      <roomNo>319</roomNo>
+      <diagnose1>Autism</diagnose1>
+      <diagnose2>Cancer</diagnose2>
+      <diagnose3>Diabetes</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>High</dependency>
+      <dateOfArrival>07.04.2010</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Lambert</name>
+        <lastName>Dumphry</lastName>
+        <phoneNumber>+48 235 218 7575</phoneNumber>
+      </contactPerson>
+      <age>64</age>
+    </record>
+    <record>
+      <id>86</id>
+      <firstName>Agnola</firstName>
+      <lastName>Konzel</lastName>
+      <dateOfBirth>08.09.1958</dateOfBirth>
+      <phoneNumber>+62 487 192 9836</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>275</monthPayment>
+      <pension>440</pension>
+      <roomNo>506</roomNo>
+      <diagnose1>Cancer</diagnose1>
+      <diagnose2>Autism</diagnose2>
+      <diagnose3>Depression</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>Medium</dependency>
+      <dateOfArrival>07.02.2005</dateOfArrival>
+      <dateOfDeparture>14.01.2013</dateOfDeparture>
+      <contactPerson>
+        <name>Lizette</name>
+        <lastName>Clipsham</lastName>
+        <phoneNumber>+54 107 362 2328</phoneNumber>
+      </contactPerson>
+      <age>64</age>
+    </record>
+    <record>
+      <id>2</id>
+      <firstName>Olva</firstName>
+      <lastName>Cullerne</lastName>
+      <dateOfBirth>05.05.1962</dateOfBirth>
+      <phoneNumber>+86 522 870 6764</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>350</monthPayment>
+      <pension>500</pension>
+      <roomNo>102</roomNo>
+      <diagnose1>Cancer</diagnose1>
+      <diagnose2>Autism</diagnose2>
+      <diagnose3 />
+      <immobility>No</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>02.11.2004</dateOfArrival>
+      <dateOfDeparture>04.01.2015</dateOfDeparture>
+      <contactPerson>
+        <name>Quinlan</name>
+        <lastName>Peizer</lastName>
+        <phoneNumber>+86 875 519 0522</phoneNumber>
+      </contactPerson>
+      <age>60</age>
+    </record>
+    <record>
+      <id>47</id>
+      <firstName>Alan</firstName>
+      <lastName>McCord</lastName>
+      <dateOfBirth>10.12.1963</dateOfBirth>
+      <phoneNumber>+48 514 459 6782</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>250</monthPayment>
+      <pension>460</pension>
+      <roomNo>307</roomNo>
+      <diagnose1>Autism</diagnose1>
+      <diagnose2>Cancer</diagnose2>
+      <diagnose3>Chronic Kidney Disease</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>Medium</dependency>
+      <dateOfArrival>24.02.2010</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Berty</name>
+        <lastName>Devine</lastName>
+        <phoneNumber>+86 575 228 6775</phoneNumber>
+      </contactPerson>
+      <age>59</age>
+    </record>
+    <record>
+      <id>14</id>
+      <firstName>Juli</firstName>
+      <lastName>Drable</lastName>
+      <dateOfBirth>18.01.1965</dateOfBirth>
+      <phoneNumber>+55 333 325 9909</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>300</monthPayment>
+      <pension>400</pension>
+      <roomNo>114</roomNo>
+      <diagnose1>Cancer</diagnose1>
+      <diagnose2>Autism</diagnose2>
+      <diagnose3 />
+      <immobility>No</immobility>
+      <dependency>Medium</dependency>
+      <dateOfArrival>15.02.2011</dateOfArrival>
+      <dateOfDeparture>18.03.2012</dateOfDeparture>
+      <contactPerson>
+        <name>Blanch</name>
+        <lastName>Louisot</lastName>
+        <phoneNumber>+62 934 556 8199</phoneNumber>
+      </contactPerson>
+      <age>58</age>
+    </record>
+  </Client>
+</Result>

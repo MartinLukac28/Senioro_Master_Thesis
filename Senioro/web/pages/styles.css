@@ -1,0 +1,99 @@
+﻿
+.hovertext {
+    position: relative;
+    border-bottom: 1px dotted black;
+}
+
+    .hovertext:before {
+        content: attr(data-hover);
+        visibility: hidden;
+        opacity: 0;
+        width: 400px;
+        background-color: dimgray;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px 0;
+        transition: opacity 1s ease-in-out;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 100%;
+    }
+
+    .hovertext:hover:before {
+        opacity: 1;
+        visibility: visible;
+    }
+
+.navbar-dark {
+    background-color: #1e2126 !important;
+}
+
+#filterForm {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+#filterBtn,
+#statsBtn {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+    #filterBtn:hover,
+    .btn-primary:hover {
+        background-color: #0062cc;
+    }
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+    color: #495057;
+}
+
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    font-size: 14px;
+    color: #666;
+}
+
+th {
+    background-color: #E0E0E0;
+}
+
+tr:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+tr:hover {
+    background-color: #EEE;
+}

@@ -1,0 +1,77 @@
+<Result>
+  <Count>3 of the entries fulfil the given conditions</Count>
+  <Client>
+    <record>
+      <id>71</id>
+      <firstName>Nyssa</firstName>
+      <lastName>Wallworth</lastName>
+      <dateOfBirth>09.03.1940</dateOfBirth>
+      <phoneNumber>+33 482 989 6019</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>300</monthPayment>
+      <pension>480</pension>
+      <roomNo>411</roomNo>
+      <diagnose1>Autism</diagnose1>
+      <diagnose2>Cancer</diagnose2>
+      <diagnose3>Depression</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>10.05.2005</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Issy</name>
+        <lastName>Kee</lastName>
+        <phoneNumber>+62 637 977 6681</phoneNumber>
+      </contactPerson>
+      <age>83</age>
+    </record>
+    <record>
+      <id>95</id>
+      <firstName>Darrell</firstName>
+      <lastName>Cejka</lastName>
+      <dateOfBirth>16.07.1944</dateOfBirth>
+      <phoneNumber>+255 387 838 1691</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>350</monthPayment>
+      <pension>550</pension>
+      <roomNo>515</roomNo>
+      <diagnose1>Autism</diagnose1>
+      <diagnose2>Cancer</diagnose2>
+      <diagnose3>Depression</diagnose3>
+      <immobility>No</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>22.09.2011</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Ferd</name>
+        <lastName>McNee</lastName>
+        <phoneNumber>+251 972 484 8063</phoneNumber>
+      </contactPerson>
+      <age>78</age>
+    </record>
+    <record>
+      <id>23</id>
+      <firstName>Pris</firstName>
+      <lastName>Laugier</lastName>
+      <dateOfBirth>25.08.1946</dateOfBirth>
+      <phoneNumber>+351 970 424 2294</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>275</monthPayment>
+      <pension>550</pension>
+      <roomNo>203</roomNo>
+      <diagnose1>Autism</diagnose1>
+      <diagnose2>Cancer</diagnose2>
+      <diagnose3>Depression</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>13.11.2004</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Addie</name>
+        <lastName>Pittendreigh</lastName>
+        <phoneNumber>+1 315 704 7272</phoneNumber>
+      </contactPerson>
+      <age>76</age>
+    </record>
+  </Client>
+</Result>

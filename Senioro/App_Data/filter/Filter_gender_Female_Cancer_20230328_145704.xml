@@ -1,0 +1,29 @@
+<Result>
+  <Count>1 of the entries fulfil the given conditions</Count>
+  <Client>
+    <record>
+      <id>23</id>
+      <firstName>Pris</firstName>
+      <lastName>Laugier</lastName>
+      <dateOfBirth>25.08.1946</dateOfBirth>
+      <phoneNumber>+351 970 424 2294</phoneNumber>
+      <gender>Female</gender>
+      <monthPayment>275</monthPayment>
+      <pension>550</pension>
+      <roomNo>203</roomNo>
+      <diagnose1>Autism</diagnose1>
+      <diagnose2>Cancer</diagnose2>
+      <diagnose3>Depression</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>13.11.2004</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Addie</name>
+        <lastName>Pittendreigh</lastName>
+        <phoneNumber>+1 315 704 7272</phoneNumber>
+      </contactPerson>
+      <age>76</age>
+    </record>
+  </Client>
+</Result>

@@ -1,0 +1,341 @@
+<Result>
+  <Count>14 of the entries fulfil the given conditions</Count>
+  <Client>
+    <record>
+      <id>3</id>
+      <firstName>Hammad</firstName>
+      <lastName>Borrowman</lastName>
+      <dateOfBirth>29.10.1969</dateOfBirth>
+      <phoneNumber>+62 958 428 2204</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>300</monthPayment>
+      <pension>500</pension>
+      <roomNo>103</roomNo>
+      <diagnose1>Chronic Kidney Disease</diagnose1>
+      <diagnose2>Stroke</diagnose2>
+      <diagnose3>Diabetes</diagnose3>
+      <immobility>No</immobility>
+      <dependency>High</dependency>
+      <dateOfArrival>14.09.2005</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Parsifal</name>
+        <lastName>Housley</lastName>
+        <phoneNumber>+91 913 103 5200</phoneNumber>
+      </contactPerson>
+      <age>53</age>
+    </record>
+    <record>
+      <id>5</id>
+      <firstName>Minny</firstName>
+      <lastName>Cordet</lastName>
+      <dateOfBirth>10.04.1963</dateOfBirth>
+      <phoneNumber>+7 624 462 2085</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>250</monthPayment>
+      <pension>500</pension>
+      <roomNo>105</roomNo>
+      <diagnose1>Dementia</diagnose1>
+      <diagnose2>Diabetes</diagnose2>
+      <diagnose3>Osteoporosis</diagnose3>
+      <immobility>No</immobility>
+      <dependency>High</dependency>
+      <dateOfArrival>20.11.2000</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Doralin</name>
+        <lastName>Inker</lastName>
+        <phoneNumber>+62 584 913 1994</phoneNumber>
+      </contactPerson>
+      <age>59</age>
+    </record>
+    <record>
+      <id>8</id>
+      <firstName>Chris</firstName>
+      <lastName>Croney</lastName>
+      <dateOfBirth>20.08.1964</dateOfBirth>
+      <phoneNumber>+62 215 254 9973</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>400</monthPayment>
+      <pension>460</pension>
+      <roomNo>108</roomNo>
+      <diagnose1>Diabetes</diagnose1>
+      <diagnose2>Dementia</diagnose2>
+      <diagnose3>Stroke</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>Medium</dependency>
+      <dateOfArrival>31.10.2008</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Rita</name>
+        <lastName>Paxeford</lastName>
+        <phoneNumber>+385 881 795 9035</phoneNumber>
+      </contactPerson>
+      <age>58</age>
+    </record>
+    <record>
+      <id>9</id>
+      <firstName>Alyda</firstName>
+      <lastName>Siehard</lastName>
+      <dateOfBirth>21.07.1963</dateOfBirth>
+      <phoneNumber>+84 645 598 1189</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>275</monthPayment>
+      <pension>400</pension>
+      <roomNo>109</roomNo>
+      <diagnose1>Osteoporosis</diagnose1>
+      <diagnose2>Chronic Obstructive Pulmonary Disease</diagnose2>
+      <diagnose3>Diabetes</diagnose3>
+      <immobility>No</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>14.08.2019</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Percival</name>
+        <lastName>Dallewater</lastName>
+        <phoneNumber>+380 574 525 4523</phoneNumber>
+      </contactPerson>
+      <age>59</age>
+    </record>
+    <record>
+      <id>12</id>
+      <firstName>Charlena</firstName>
+      <lastName>Cosbey</lastName>
+      <dateOfBirth>10.01.1967</dateOfBirth>
+      <phoneNumber>+504 160 585 3187</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>275</monthPayment>
+      <pension>550</pension>
+      <roomNo>112</roomNo>
+      <diagnose1>Depression</diagnose1>
+      <diagnose2>Arthritis</diagnose2>
+      <diagnose3>Diabetes</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>05.01.2012</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Albina</name>
+        <lastName>Pfleger</lastName>
+        <phoneNumber>+55 104 539 4226</phoneNumber>
+      </contactPerson>
+      <age>56</age>
+    </record>
+    <record>
+      <id>17</id>
+      <firstName>Meredithe</firstName>
+      <lastName>Cokly</lastName>
+      <dateOfBirth>28.09.1968</dateOfBirth>
+      <phoneNumber>+355 914 223 8218</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>400</monthPayment>
+      <pension>500</pension>
+      <roomNo>117</roomNo>
+      <diagnose1>Dementia</diagnose1>
+      <diagnose2>Diabetes</diagnose2>
+      <diagnose3>Osteoporosis</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>17.01.2004</dateOfArrival>
+      <dateOfDeparture>19.03.2014</dateOfDeparture>
+      <contactPerson>
+        <name>Jonathon</name>
+        <lastName>Nears</lastName>
+        <phoneNumber>+7 990 701 0295</phoneNumber>
+      </contactPerson>
+      <age>54</age>
+    </record>
+    <record>
+      <id>22</id>
+      <firstName>Ansel</firstName>
+      <lastName>Arbor</lastName>
+      <dateOfBirth>06.03.1960</dateOfBirth>
+      <phoneNumber>+229 291 213 1091</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>275</monthPayment>
+      <pension>500</pension>
+      <roomNo>202</roomNo>
+      <diagnose1>Stroke</diagnose1>
+      <diagnose2>Chronic Kidney Disease</diagnose2>
+      <diagnose3>Diabetes</diagnose3>
+      <immobility>No</immobility>
+      <dependency>High</dependency>
+      <dateOfArrival>01.05.2017</dateOfArrival>
+      <dateOfDeparture>01.01.2022</dateOfDeparture>
+      <contactPerson>
+        <name>Gar</name>
+        <lastName>Rathe</lastName>
+        <phoneNumber>+54 926 877 0250</phoneNumber>
+      </contactPerson>
+      <age>63</age>
+    </record>
+    <record>
+      <id>29</id>
+      <firstName>Philippine</firstName>
+      <lastName>Cockburn</lastName>
+      <dateOfBirth>18.07.1942</dateOfBirth>
+      <phoneNumber>+86 565 882 3666</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>275</monthPayment>
+      <pension>440</pension>
+      <roomNo>209</roomNo>
+      <diagnose1>Dementia</diagnose1>
+      <diagnose2>Diabetes</diagnose2>
+      <diagnose3>Depression</diagnose3>
+      <immobility>No</immobility>
+      <dependency>Medium</dependency>
+      <dateOfArrival>17.03.2017</dateOfArrival>
+      <dateOfDeparture>01.01.2022</dateOfDeparture>
+      <contactPerson>
+        <name>Janith</name>
+        <lastName>Ivashin</lastName>
+        <phoneNumber>+352 145 715 2955</phoneNumber>
+      </contactPerson>
+      <age>80</age>
+    </record>
+    <record>
+      <id>53</id>
+      <firstName>Amalita</firstName>
+      <lastName>Tester</lastName>
+      <dateOfBirth>26.06.1958</dateOfBirth>
+      <phoneNumber>+591 645 905 8419</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>300</monthPayment>
+      <pension>550</pension>
+      <roomNo>313</roomNo>
+      <diagnose1>Dementia</diagnose1>
+      <diagnose2>Diabetes</diagnose2>
+      <diagnose3>Autism</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>30.11.2015</dateOfArrival>
+      <dateOfDeparture>01.01.2022</dateOfDeparture>
+      <contactPerson>
+        <name>Gordie</name>
+        <lastName>Dodamead</lastName>
+        <phoneNumber>+86 619 975 6500</phoneNumber>
+      </contactPerson>
+      <age>64</age>
+    </record>
+    <record>
+      <id>65</id>
+      <firstName>Dick</firstName>
+      <lastName>Dowse</lastName>
+      <dateOfBirth>06.07.1969</dateOfBirth>
+      <phoneNumber>+86 278 945 7748</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>350</monthPayment>
+      <pension>480</pension>
+      <roomNo>405</roomNo>
+      <diagnose1>Dementia</diagnose1>
+      <diagnose2>Diabetes</diagnose2>
+      <diagnose3>Autism</diagnose3>
+      <immobility>No</immobility>
+      <dependency>High</dependency>
+      <dateOfArrival>22.11.2003</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Anabal</name>
+        <lastName>Fladgate</lastName>
+        <phoneNumber>+48 992 455 9442</phoneNumber>
+      </contactPerson>
+      <age>53</age>
+    </record>
+    <record>
+      <id>77</id>
+      <firstName>Tiphani</firstName>
+      <lastName>Gravett</lastName>
+      <dateOfBirth>13.01.1955</dateOfBirth>
+      <phoneNumber>+962 807 615 4741</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>400</monthPayment>
+      <pension>500</pension>
+      <roomNo>417</roomNo>
+      <diagnose1>Dementia</diagnose1>
+      <diagnose2>Diabetes</diagnose2>
+      <diagnose3 />
+      <immobility>Yes</immobility>
+      <dependency>Medium</dependency>
+      <dateOfArrival>03.03.2013</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Demeter</name>
+        <lastName>O'Currane</lastName>
+        <phoneNumber>+98 594 355 7810</phoneNumber>
+      </contactPerson>
+      <age>68</age>
+    </record>
+    <record>
+      <id>80</id>
+      <firstName>Adriena</firstName>
+      <lastName>Charnock</lastName>
+      <dateOfBirth>07.03.1958</dateOfBirth>
+      <phoneNumber>+63 184 414 0194</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>300</monthPayment>
+      <pension>550</pension>
+      <roomNo>420</roomNo>
+      <diagnose1>Diabetes</diagnose1>
+      <diagnose2>Dementia</diagnose2>
+      <diagnose3>Depression</diagnose3>
+      <immobility>No</immobility>
+      <dependency>High</dependency>
+      <dateOfArrival>12.01.2014</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Lorianna</name>
+        <lastName>Manes</lastName>
+        <phoneNumber>+262 304 231 4493</phoneNumber>
+      </contactPerson>
+      <age>65</age>
+    </record>
+    <record>
+      <id>84</id>
+      <firstName>Ronnie</firstName>
+      <lastName>Trussman</lastName>
+      <dateOfBirth>24.02.1946</dateOfBirth>
+      <phoneNumber>+93 169 392 0054</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>250</monthPayment>
+      <pension>420</pension>
+      <roomNo>504</roomNo>
+      <diagnose1>Depression</diagnose1>
+      <diagnose2>Arthritis</diagnose2>
+      <diagnose3>Diabetes</diagnose3>
+      <immobility>Yes</immobility>
+      <dependency>High</dependency>
+      <dateOfArrival>02.12.2000</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Ebonee</name>
+        <lastName>Eslinger</lastName>
+        <phoneNumber>+352 180 181 7948</phoneNumber>
+      </contactPerson>
+      <age>77</age>
+    </record>
+    <record>
+      <id>92</id>
+      <firstName>Matelda</firstName>
+      <lastName>Durban</lastName>
+      <dateOfBirth>16.07.1966</dateOfBirth>
+      <phoneNumber>+86 500 595 2406</phoneNumber>
+      <gender>Male</gender>
+      <monthPayment>300</monthPayment>
+      <pension>460</pension>
+      <roomNo>512</roomNo>
+      <diagnose1>Diabetes</diagnose1>
+      <diagnose2>Dementia</diagnose2>
+      <diagnose3 />
+      <immobility>Yes</immobility>
+      <dependency>Low</dependency>
+      <dateOfArrival>29.07.2001</dateOfArrival>
+      <dateOfDeparture />
+      <contactPerson>
+        <name>Carol</name>
+        <lastName>Roantree</lastName>
+        <phoneNumber>+374 536 212 3342</phoneNumber>
+      </contactPerson>
+      <age>56</age>
+    </record>
+  </Client>
+</Result>
